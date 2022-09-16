@@ -1,0 +1,70 @@
+/* tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+    .m-fz-48{
+        font-size: 4.8rem;
+    }
+    .medial-header a{
+        padding: 0 8px;
+    }
+    .team-section .team-list{
+        grid-template-columns: auto auto;
+    }
+    .work-section .work-list{
+        grid-template-columns: auto auto;
+    }
+    .contact-item .form-sub{
+        width: 100%;
+    }
+    #footer a{
+        padding: 0 8px;
+    }
+}
+
+/* mobile */
+@media(max-width:739px){
+    .s-fz-36{
+        font-size: 3.6rem;
+    }
+    .s-none{
+        display: none;
+    }
+    .s-full{
+        width: 100% !important;
+    }
+    .nav-header .icon-nav{
+        display: block;
+    }
+    .medial-header a{
+        padding: 0 8px;
+    }
+    .about-section .about-list{
+        flex-direction: column;
+    }
+    .know-section{
+        flex-direction: column;
+    }
+    .team-section .team-list{
+        grid-template-columns: auto;
+    }
+    .score-section .score-list{
+        flex-direction: column;
+    }
+    .work-section .work-list{
+        grid-template-columns: auto;
+    }
+    .skill-section .skill-list{
+        flex-direction: column;
+    }
+    .pricing-section .pricing-list{
+        flex-direction: column;
+    }
+    .contact-section .contact-list{
+        flex-direction: column;
+    }
+    .s-mt-32{
+        margin-top: 32px;
+    }
+    #footer a{
+        padding: 0 8px;
+    }
+}

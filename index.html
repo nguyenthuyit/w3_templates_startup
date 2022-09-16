@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates Startup</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-header bg-white">
+        <div class="nav-list">
+            <div class="nav-left">
+                <a href="#header">Logo</a>
+            </div>
+            <!--icon mobile -->
+            <div class="nav-mob-right">
+                <i class="fa-solid fa-bars fz-24 pd-8 icon-nav" onclick="openMenu('nav')"></i>
+            </div>
+            <div class="nav-right s-none">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team"><i class="fa-solid fa-user"></i>Team</a></li>
+                    <li><a href="#work"><i class="fa-solid fa-table-list"></i>Work</a></li>
+                    <li><a href="#pricing"><i class="fa-solid fa-dollar-sign"></i>Pricing</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- nav-mobile -->
+    <nav id="nav" class="nav-mob bg-black fz-24">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="header">
+        <div class="info-header">
+            <h1 class="text-white fz-64 m-fz-48 s-fz-36">Start something that matters</h1>
+            <p class="text-white fz-18 mt-16">Stop wasting valuable time with projects that just isn't you.</p><br><br>
+            <a href="#about" class="bg-gray fz-18 btn-header mt-16">Learn more and start today</a>
+        </div>
+        <div class="medial-header fz-18">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </header>
+    <div id="content">
+       
+            <!-- about -->
+            <div id="about" class="about-section pd-128">
+                <h3 class="fz-24 text-center">ABOUT THE COMPANY</h3>
+                <p class="text-center mt-16 fz-18">Key features of our company</p>
+                <div class="about-list mt-64">
+                    <div class="about-item text-center pd-8">
+                        <i class="fz-64 fa-solid fa-desktop"></i>
+                        <p class="fz-18 mt-16">Responsive</p>
+                        <p class="fz-15 mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                    <div class="about-item text-center pd-8 s-mt-32">
+                        <i class="fz-64 fa-solid fa-heart"></i>
+                        <p class="fz-18 mt-16">Design</p>
+                        <p class="fz-15 mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                    <div class="about-item text-center pd-8 s-mt-32">
+                        <i class="fz-64 fa-regular fa-gem"></i>
+                        <p class="fz-18 mt-16">Design</p>
+                        <p class="fz-15 mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                    <div class="about-item text-center pd-8 s-mt-32">
+                        <i class="fz-64 fa-solid fa-gear"></i>
+                        <p class="fz-18 mt-16">Support</p>
+                        <p class="fz-15 mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- we know design -->
+            <div class="know-section bg-f1 pd-128">
+                <div class="info-know pd-8 s-full">
+                    <h3 class="fz-24">We know design.</h3>
+                    <p class="fz-15 mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore.</p><br><br>
+                    <a href="#work" class="text-white fz-15"><i class="fa-solid fa-table-list pd-8"></i>View Our Works</a>
+                </div>
+                <img src="./assets/img/phone_buildings.jpg" alt="" class="s-full s-mt-32">
+            </div>
+            <!-- the team -->
+            <div id="team" class="team-section pd-128">
+                <h3 class="fz-24 text-center">THE TEAM</h3>
+                <p class="text-center mt-16 fz-18">The ones who runs this company</p>
+                <div class="team-list mt-64">
+                    <div class="team-item">
+                        <img src="./assets/img/team1.jpg" alt="">
+                        <h3 class="fz-24 mt-16 pd-8">John Doe</h3>
+                        <p class="fz-15 mt-16 pd-8 text-gray">CEO & Founder</p>
+                        <p class="fz-15 mt-16 pd-8">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p class="pd-8 mt-16">
+                            <button class="fz-15 btn-team"><i class="fa-solid fa-envelope"></i>Contact</button>
+                        </p>
+                    </div>
+                    <div class="team-item">
+                        <img src="./assets/img/team2.jpg" alt="">
+                        <h3 class="fz-24 mt-16 pd-8">Anja Doe</h3>
+                        <p class="fz-15 mt-16 pd-8 text-gray">Art Director</p>
+                        <p class="fz-15 mt-16 pd-8">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p class="pd-8 mt-16">
+                            <button class="fz-15 btn-team"><i class="fa-solid fa-envelope"></i>Contact</button>
+                        </p>
+                    </div>
+                    <div class="team-item">
+                        <img src="./assets/img/team3.jpg" alt="">
+                        <h3 class="fz-24 mt-16 pd-8">Mike Ross</h3>
+                        <p class="fz-15 mt-16 pd-8 text-gray">Web Designer</p>
+                        <p class="fz-15 mt-16 pd-8">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p class="pd-8 mt-16">
+                            <button class="fz-15 btn-team"><i class="fa-solid fa-envelope"></i>Contact</button>
+                        </p>
+                    </div>
+                    <div class="team-item">
+                        <img src="./assets/img/team4.jpg" alt="">
+                        <h3 class="fz-24 mt-16 pd-8">Dan Star</h3>
+                        <p class="fz-15 mt-16 pd-8 text-gray">Designer</p>
+                        <p class="fz-15 mt-16 pd-8">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p class="pd-8 mt-16">
+                            <button class="fz-15 btn-team"><i class="fa-solid fa-envelope"></i>Contact</button>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- score -->
+            <div class="score-section pd-128 bg-61">
+                <div class="score-list">
+                    <div class="score-item text-center">
+                        <p class="fz-36 text-white">14+</p>
+                        <p class="fz-15 text-white">Partners</p>
+                    </div>
+                    <div class="score-item text-center">
+                        <p class="fz-36 text-white">55+</p>
+                        <p class="fz-15 text-white">Projects Done</p>
+                    </div>
+                    <div class="score-item text-center">
+                        <p class="fz-36 text-white">89+</p>
+                        <p class="fz-15 text-white">Happy Clients</p>
+                    </div>
+                    <div class="score-item text-center">
+                        <p class="fz-36 text-white">150+</p>
+                        <p class="fz-15 text-white">Meetings</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- our work -->
+            <div id="work" class="work-section pd-128">
+                <h3 class="fz-24 text-center">OUR WORK</h3>
+                <p class="text-center mt-16 fz-18">What we've done for people</p>
+                <div class="work-list mt-64">
+                    <img src="./assets/img/tech_mic.jpg" alt="">
+                    <img src="./assets/img/tech_phone.jpg" alt="">
+                    <img src="./assets/img/tech_camera.jpg" alt="">
+                    <img src="./assets/img/tech_drone.jpg" alt="">
+                    <img src="./assets/img/tech_sound.jpg" alt="">
+                    <img src="./assets/img/tech_tablet.jpg" alt="">
+                    <img src="./assets/img/tech_tableturner.jpg" alt="">
+                    <img src="./assets/img/tech_typewriter.jpg" alt="">
+                </div>
+            </div>
+            <!-- our skill -->
+            <div class="skill-section pd-128 bg-f1">
+                <div class="skill-list">
+                    <div class="skill-item s-full">
+                        <h3 class="fz-24">Our Skills.</h3>
+                        <p class="fz-15 mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore.</p>
+                        <p class="fz-15 mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore.</p>
+                    </div>
+                    <div class="skill-item s-full s-mt-32">
+                        <p class="fz-15 text-skill"><i class="icon-skill fa-solid fa-camera"></i>Photography</p>
+                        <div class="pro-bar bg-gray">
+                            <div class="bar-first bg-61 text-white fz-15 text-center">90%</div>
+                        </div>
+                        <p class="fz-15 text-skill mt-16"><i class="icon-skill fa-solid fa-desktop"></i>Web Design</p>
+                        <div class="pro-bar bg-gray">
+                            <div class="bar-second bg-61 text-white fz-15 text-center">85%</div>
+                        </div>
+                        <p class="fz-15 text-skill mt-16"><i class="icon-skill fa-solid fa-image"></i>Photoshop</p>
+                        <div class="pro-bar bg-gray">
+                            <div class="bar-third bg-61 text-white fz-15 text-center">75%</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- pricing -->
+            <div id="pricing" class="pricing-section pd-128 bg-61">
+                <h3 class="fz-24 text-center text-white">PRICING</h3>
+                <p class="text-center mt-16 fz-18 text-white">Choose a pricing plan that fits your needs.</p>
+                <div class="pricing-list mt-64">
+                    <div class="pricing-item text-center bg-white fz-15 s-full">
+                        <ul>
+                            <li class="text-white fz-24 bg-black pd-32">Basic</li>
+                            <li class="pd-16"><b>10GB </b>Storage</li>
+                            <li class="pd-16"><b>10</b> Emails</li>
+                            <li class="pd-16"><b>10</b> Domains</li>
+                            <li class="pd-16"><b>Endless</b> Support</li>
+                            <li class="pd-16 fz-24"><i class="fa-solid fa-dollar-sign"></i> 10 <br> <span class="fz-15">per month</span></li>
+                            <li class="bg-f1 pd-32"><button class="btn-pricing bg-black text-white fz-15 s-full">Sign Up</button></li>
+                        </ul>
+                    </div>
+                    <div class="pricing-item text-center bg-white fz-15 s-full s-mt-32">
+                        <ul>
+                            <li class="text-white fz-24 bg-red pd-32">Pro</li>
+                            <li class="pd-16"><b>25GB </b>Storage</li>
+                            <li class="pd-16"><b>25</b> Emails</li>
+                            <li class="pd-16"><b>25</b> Domains</li>
+                            <li class="pd-16"><b>Endless</b> Support</li>
+                            <li class="pd-16 fz-24"><i class="fa-solid fa-dollar-sign"></i> 25 <br> <span class="fz-15">per month</span></li>
+                            <li class="bg-f1 pd-32"><button class="btn-pricing bg-black text-white fz-15 s-full">Sign Up</button></li>
+                        </ul>
+                    </div>
+                    <div class="pricing-item text-center bg-white fz-15 s-full s-mt-32">
+                        <ul>
+                            <li class="text-white fz-24 bg-black pd-32">Premium</li>
+                            <li class="pd-16"><b>50GB </b>Storage</li>
+                            <li class="pd-16"><b>50</b> Emails</li>
+                            <li class="pd-16"><b>50</b> Domains</li>
+                            <li class="pd-16"><b>Endless</b> Support</li>
+                            <li class="pd-16 fz-24"><i class="fa-solid fa-dollar-sign"></i> 50 <br> <span class="fz-15">per month</span></li>
+                            <li class="bg-f1 pd-32"><button class="btn-pricing bg-black text-white fz-15 s-full">Sign Up</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- contact -->
+            <div id="contact" class="contact-section pd-128 bg-f1">
+                <h3 class="fz-24 text-center">CONTACT</h3>
+                <p class="text-center mt-16 fz-18">Lets get in touch. Send us a message:</p>
+                <div class="contact-list mt-64">
+                    <div class="contact-item fz-15 s-full">
+                        <p><i class="pd-8 fa-solid fa-location-dot"></i> Chicago, US</p>
+                        <p><i class="pd-8 fa-solid fa-phone"></i> Phone: +00 151515</p>
+                        <p><i class="pd-8 fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+                    </div>
+                    <div class="contact-item s-full s-mt-32">
+                        <form action="">
+                            <input type="text" name="" id="" required class="form-control fz-15" placeholder="Name">
+                            <input type="email" name="" id="" required class="form-control mt-16 fz-15"  placeholder="Email">
+                            <input type="text" name="" id="" required class="form-control mt-16 fz-15" placeholder="Subject">
+                            <input type="text" name="" id="" required  class="form-control mt-16 fz-15" placeholder="Message">
+                            <input type="submit" value="SEND MESSAGE" class="form-sub mt-16 fz-18 bg-black text-white s-full">
+                        </form>
+                    </div>
+                </div>
+                <img src="./assets/img/map.jpg" alt="" class="mt-64">
+            </div>
+
+    </div>
+    <footer id="footer" class="pd-128 text-center bg-black">
+        <button class="btn-footer fz-15">To the top</button>
+        <div class="fz-24 mt-16">
+            <a href="" class="text-white"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="text-white"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="" class="text-white"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="text-white"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" class="text-white"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="text-white fz-15 mt-16">Powered by <a href="" class="text-white">w3.css</a></p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
